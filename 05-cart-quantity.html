@@ -8,11 +8,37 @@
 </head>
 <body>
     <p>Cart Quantity</p>
-    <button>Show Quantity</button>
-    <button>Add to Cart</button>
-    <button>+2</button>
-    <button>+3</button>
-    <button>Reset Quantity</button>
+    <button onclick="
+    console.log(`Cart Quantity: ${cartQuantity}`);
+    ">Show Quantity</button>
+
+
+    <button onclick="
+    cartQuantity ++;
+    console.log(`CartQuantity: ${cartQuantity}`);
+    ">Add to Cart</button>
+
+
+    <button onclick="
+    cartQuantity += +2;
+    console.log(`CartQuantity: ${cartQuantity}`);
+    ">+2</button>
+
+
+    <button onclick="
+    cartQuantity += +3;
+    console.log(`CartQuantity: ${cartQuantity}`);
+    ">+3</button>
+
+
+    <button onclick="
+    cartQuantity = 0;
+    console.log(`CartQuantity: ${cartQuantity}`);
+    ">Reset Quantity</button>
+
+    <script>
+        let cartQuantity = 2;
+    </script>
     
 </body>
 </html>
