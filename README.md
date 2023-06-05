@@ -5,3 +5,5 @@
 
 - Escape character(\') -  used when you have a single quote before the end of the string for example: 
 'i\'m learning JS' 
+
+- Comparison operators have a lower precedence than math operators. 
