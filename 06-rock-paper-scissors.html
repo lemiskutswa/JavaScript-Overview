@@ -9,11 +9,16 @@
 <body>
     <p>Rock Paper Scissors</p>
     <button onclick="
-    const value = Math.random();
+    const randomNumber = Math.random();
 
-    if (0 < value < 3) {
+    if (randomNumber >= 0 && randomNumber < 1/3) {
         alert('Rock');
-    } 
+    } else if (randomNumber >= 1/3 && randomNumber < 2/3) {
+        alert('Paper');
+    } else if(randomNumber >= 2/3 && randomNumber < 1) {
+        alert('Scissors');
+    }
+    console.log(randomNumber);
     ">Rock</button>
 
 

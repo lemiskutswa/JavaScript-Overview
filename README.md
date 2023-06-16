@@ -7,3 +7,9 @@
 'i\'m learning JS' 
 
 - Comparison operators have a lower precedence than math operators. 
+
+# Rock Paper Sciscors algorithm 
+
+- Computer selects a random value on click
+- Compares the values
+- Display the outupt 
