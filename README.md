@@ -13,3 +13,12 @@
 - Computer selects a random value on click
 - Compares the values
 - Display the outupt 
+
+You can't declare a const and not define it. For example, const variable1; (error!)
+
+An advantage that the ternary operator has over an if statement is that you can store it in a variable/constant
+
+# Guard Operator
+You can use && to block the code on the right when the code on the left is falsy
+
+false && console.log('hello'); -> the code on the right will not even be checked. 
