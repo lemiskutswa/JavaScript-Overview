@@ -1,5 +1,8 @@
-let age = 34;
 
-const averageDrink= age >= 18 ? 'old enough' : 'not quite'
+let adultAge = 30; 
 
-console.log(averageDrink)
+if (adultAge <= 6 || adultAge >= 65) {
+ console.log('Discount is 50% off');
+} else{
+    console.log('No Discount');
+}
