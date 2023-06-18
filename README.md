@@ -22,3 +22,5 @@ An advantage that the ternary operator has over an if statement is that you can 
 You can use && to block the code on the right when the code on the left is falsy
 
 false && console.log('hello'); -> the code on the right will not even be checked. 
+
+|| is the default operator - it checks if at least one side is truthy
