@@ -1,8 +1,11 @@
 
-let adultAge = 30; 
-
-if (adultAge <= 6 || adultAge >= 65) {
- console.log('Discount is 50% off');
-} else{
-    console.log('No Discount');
+function calculateTax(cost, taxPercent) {
+    console.log(cost * taxPercent);
 }
+
+calculateTax(500, 0.01);//passing an argument (value) into a function
+
+calculateTax(800, 0.01);
+
+//this functiont takes a parameter
+//parameter only exists in a function scope

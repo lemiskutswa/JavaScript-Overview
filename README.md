@@ -24,3 +24,15 @@ You can use && to block the code on the right when the code on the left is falsy
 false && console.log('hello'); -> the code on the right will not even be checked. 
 
 || is the default operator - it checks if at least one side is truthy
+
+Return statement returns a value out a function. You can use it to return the computerMove value in a rock paper scissors game
+
+It is a best practice to keep things in scope and for this reason a return statement is better instead of using a global variable. 
+
+You can set a default value for a parameter this way: 
+
+function calculate cost(cost, taxPercent = 0.1) {
+    some code
+}
+
+call the function// here you can pass the cost as an argument without bothering with the taxPercent
