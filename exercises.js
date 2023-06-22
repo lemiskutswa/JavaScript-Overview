@@ -18,4 +18,6 @@
 //     draws: 'Tied' 
 // };
 
+// Don't use arrays here 
+
 // console.log(gameLog.push(gameLogObject));
