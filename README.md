@@ -36,3 +36,7 @@ function calculate cost(cost, taxPercent = 0.1) {
 }
 
 call the function// here you can pass the cost as an argument without bothering with the taxPercent
+
+Importance of objects:
+- Make code more organized, reduce the number of variables you need to create
+- Use multipe values together. 
