@@ -46,3 +46,11 @@ When accessing objects, bracket notation helps us to access properties that don'
 You can save any type of value in objects, and even other objects within an object (nested object). - helps to make the code organized. Use dot notation multiple times to access the values. 
 
 You can also put a function inside an object - and when we do this, this is called a method
+
+# JSON
+JavaScript object notation is similar to a JS object syntax but all the properties have double quotes and it doesn't support functions. JSON syntax is almost universal and can be understood by a variety of programming languages (Java, PHP, C#, C++, etc)
+
+So we use JSON when sending data between 2 computers that might use different programming languages
+
+# locaStorage
+To store values more permanently. All variables are deleted when you refresh the page {try with Rock Paper Scissors project}. Local storage doesn't get deleted when we refresh the page
