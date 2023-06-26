@@ -9,12 +9,30 @@
     
     <script>
         
-        const product = {
+        const product2 = {
             name: 'socks',
-            price: 1090
+            delivery_time: '9:00 am', 
+            ['delivery-day']:'Wednesday',
+            rating: {
+                stars: 4.5,
+                count: 903
+            }, 
+            fun: function objFunction() {
+                console.log('Function in an object');
+            } 
         };
 
-        console.log(product.name);
+        console.log(product2);
+        console.log(product2['name']);
+        console.log(product2.delivery_time);
+        console.log(product2['delivery-day']);
+
+        console.log(product2.fun());
+
+        console.log(product2.rating.count);
+
+        console.log(typeof console.log);
+       /* console.log(product.name);
 
         product.name = 'sneakers';
 
@@ -25,6 +43,10 @@
 
         delete product.newProperty;
         console.log(product);
+        */
+
+
+
 
     </script>
 

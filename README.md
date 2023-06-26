@@ -40,3 +40,9 @@ call the function// here you can pass the cost as an argument without bothering 
 Importance of objects:
 - Make code more organized, reduce the number of variables you need to create
 - Use multipe values together. 
+
+When accessing objects, bracket notation helps us to access properties that don't use the dot notation. 
+
+You can save any type of value in objects, and even other objects within an object (nested object). - helps to make the code organized. Use dot notation multiple times to access the values. 
+
+You can also put a function inside an object - and when we do this, this is called a method
