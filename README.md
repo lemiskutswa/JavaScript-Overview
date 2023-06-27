@@ -53,4 +53,4 @@ JavaScript object notation is similar to a JS object syntax but all the properti
 So we use JSON when sending data between 2 computers that might use different programming languages
 
 # locaStorage
-To store values more permanently. All variables are deleted when you refresh the page {try with Rock Paper Scissors project}. Local storage doesn't get deleted when we refresh the page
+To store values more permanently. All variables are deleted when you refresh the page {try with Rock Paper Scissors project}. Local storage doesn't get deleted when we refresh the page. But since localStorage only works with strings, you have to stringify the variable for it to be stored in localStorage. 
