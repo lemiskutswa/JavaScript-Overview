@@ -58,3 +58,20 @@ To store values more permanently. All variables are deleted when you refresh the
 > Difference between null and undefined
 
 We use null when we want something to be intentionally empty
+
+Just as objects have properties and methods, other values too have properties and methods
+
+Autoboxing doesn't work with null and undefined
+
+<h3>Copy By Reference</h3>
+Let's say you create an object like this:
+
+            const object1 = {
+                message: 'hello'
+            };
+The message hello is stored somewhere in the computer's memory. So object1 is simply an object of reference (pointer), that points where in memory the message hello is stored. Suppose you create another object like this:
+
+            const object2 = object1;
+No new copies of the message are made, it just points to object1 which will in turn point where the message is stored in the computer's memory. 
+
+So objects aren't really containers (like variables/constants) which store a value they are assigned to. That is why, you can change its value even if its created using const. 
