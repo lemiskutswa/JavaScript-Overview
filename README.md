@@ -72,6 +72,6 @@ Let's say you create an object like this:
 The message hello is stored somewhere in the computer's memory. So object1 is simply an object of reference (pointer), that points where in memory the message hello is stored. Suppose you create another object like this:
 
             const object2 = object1;
-No new copies of the message are made, it just points to object1 which will in turn point where the message is stored in the computer's memory. 
+No new copies of the message are made, it copies the reference of object1 which points where the message is stored in the computer's memory. 
 
 So objects aren't really containers (like variables/constants) which store a value they are assigned to. That is why, you can change its value even if its created using const. 
