@@ -75,3 +75,12 @@ The message hello is stored somewhere in the computer's memory. So object1 is si
 No new copies of the message are made, it copies the reference of object1 which points where the message is stored in the computer's memory. 
 
 So objects aren't really containers (like variables/constants) which store a value they are assigned to. That is why, you can change its value even if its created using const. 
+
+Destructuring is a concept of getting a property outside an object and then storing it in a variable
+Syntax 
+
+                const object4 = {
+                    message: 'hello world'
+                };
+
+                const {message1} = object4
