@@ -27,13 +27,25 @@
         console.log(object1 === object3);
 
         const object4 = {
-                    message: 'hello world'
+                    message: 'hello world',
+                    price: 800
                 };
 
-        const {message} = object4;
+        const {message, price} = object4;
 
         console.log(message);
+        console.log(price);
+
+        //shorthand property
+
+        const object5 = {
+            //message: message
+            message //creates the same thing as message:message
+        };
+        
+        console.log(object5);
     /*    
+    
         const product2 = {
             name: 'socks',
             delivery_time: '9:00 am', 
