@@ -85,4 +85,4 @@ Syntax
 
                 const {message1} = object4
 
-Destructuring is an easier way to take properties out of objects
+Destructuring is an easier way to take properties out of objects 
