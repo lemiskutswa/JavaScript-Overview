@@ -7,15 +7,17 @@
 </head>
 <body>
     <p>YouTube subscribe button</p>
-    <button class="JS-subscribe" onclick = 'changeContent()'>Subscribe</button>
+    <button class="JS-subscribe" onclick = 'subscribe()'> 
+        Subscribe 
+    </button>
     <script>
-        function changeContent() {
+        function subscribe() {
             const buttonElement = document.querySelector('.JS-subscribe');
-            if (buttonElement.innerHTML === 'Subscribe') {
+            if (buttonElement.innerText === 'Subscribe') {
                 buttonElement.innerHTML = 'Subscribed!'
-            } else if (buttonElement.innerHTML === 'Subscribed!') {
-                buttonElement.innerHTML = 'Subscribe'; 
-            } 
+            } else {
+                buttonElement.innerHTML = 'Subscribe';
+            }
         }
     </script>
 </body>

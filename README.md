@@ -91,3 +91,4 @@ Destructuring is an easier way to take properties out of objects
 document.querySelector() - works with strings between the brackets - used to select and retrieve the first element that matches the specified CSS selector
 
 - Each HTML element has an innerHTML property that lets us control the element from JS. 
+- When you include extra spaces, it will show up in innerHTML. To solve this, use innerText, which will get the text inside the button without the extra spaces
