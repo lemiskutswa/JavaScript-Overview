@@ -104,4 +104,4 @@ document.querySelector() - works with strings between the brackets - used to sel
 - ParseInt will only convert to whole numbers while Number() will convert a value into an interger or floating point number
 
 - onkeydown can be used instead of onclick. 
-- clicks and keydowns are known as events: onclick and onkeydow are event listeners. 
+- clicks and keydowns are known as events: onclick and onkeydow are event listeners. Every event listner gets an event object
