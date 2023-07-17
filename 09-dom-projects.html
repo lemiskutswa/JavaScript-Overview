@@ -15,13 +15,20 @@
     <a href="09-rock-paper-scissors.html">Click here</a>
 
     <p>Amazon Shipping Calculator</p>
-    <input type="text" placeholder="Cost of order" class="js-cost-input" onkeydown="console.log('typing...');">
+    <input type="text" placeholder="Cost of order" class="js-cost-input" 
+    onkeydown="costKeydownHandler();">
+    
     <button onclick="calculateTotal();">Calculate</button>
     <p class="js-total-cost"></p>
 
 
     <script>
         
+        function costKeydownHandler() {
+            if (event.key === 'Enter') {
+                calculateTotal();}
+        }
+
         function calculateTotal() {
             const inputElement = document.querySelector('.js-cost-input');
             let cost = Number(inputElement.value); //This is the content inside the textbox
