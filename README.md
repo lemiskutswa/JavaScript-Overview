@@ -105,3 +105,5 @@ document.querySelector() - works with strings between the brackets - used to sel
 
 - onkeydown can be used instead of onclick. 
 - clicks and keydowns are known as events: onclick and onkeydow are event listeners. Every event listner gets an event object
+
+- In type coercion, say if you have ('25' - 5) = 20. Why, JS will automatically convert '25' into a number for subtraction, multiplication, and division but NOT ADDITION. In addition, the 5 will be treated as a string and concatenated with 25 to from 255. 
