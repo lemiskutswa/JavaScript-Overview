@@ -10,7 +10,32 @@
     <button class="JS-subscribe" onclick = 'subscribe()'> 
         Subscribe 
     </button>
+
+    <p>Rock paper scissors</p>
+    <a href="09-rock-paper-scissors.html">Click here</a>
+
+    <p>Amazon Shipping Calculator</p>
+    <input type="text" placeholder="Cost of order" class="js-cost-input">
+    <button onclick="calculateTotal();">Calculate</button>
+    <p class="js-total-cost"></p>
+
+
     <script>
+        
+        function calculateTotal() {
+            const inputElement = document.querySelector('.js-cost-input');
+            let cost = Number(inputElement.value); //This is the content inside the textbox
+            
+            if (cost < 40) {
+                cost = cost + 10;
+            }
+
+            console.log(typeof (cost));
+
+            document.querySelector('.js-total-cost').innerHTML = `$${cost}`;
+
+        }
+        
         function subscribe() {
             const buttonElement = document.querySelector('.JS-subscribe');
             if (buttonElement.innerText === 'Subscribe') {

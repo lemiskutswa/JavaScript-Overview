@@ -92,3 +92,13 @@ document.querySelector() - works with strings between the brackets - used to sel
 
 - Each HTML element has an innerHTML property that lets us control the element from JS. 
 - When you include extra spaces, it will show up in innerHTML. To solve this, use innerText, which will get the text inside the button without the extra spaces
+
+- for input element, you can't use innerHTML because they don't have HTML inside. At the same time, you can't use innerText (used for buttons) because they don't have inner text. 
+
+            Here only use value (for instance 
+            const inputElement = document.querySelector();
+            inputElement.value
+            
+            )
+
+- ParseInt will only convert to whole numbers while Number() will convert a value into an interger or floating point number
