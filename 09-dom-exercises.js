@@ -10,7 +10,12 @@
 // }
 
 
-
+    function enterHandler(event) {
+        if (event.key === 'Enter') {
+            inputName();
+        }
+    }
+    
     const nameElement = document.querySelector('.js-name')
     
 
@@ -18,6 +23,7 @@
         const name = nameElement.value;
         document.querySelector('.js-display-text').innerHTML = `Your name is: ${name}`;
     }
+
 
     
 

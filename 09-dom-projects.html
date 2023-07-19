@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Projects</title>
+    <link rel="stylesheet" href="dom-projects.css">
 </head>
 <body>
     <p>YouTube subscribe button</p>
-    <button class="JS-subscribe" onclick = 'subscribe()'> 
+    <button class="js-subscribe" onclick = 'subscribe()'> 
         Subscribe 
     </button>
 
@@ -31,19 +32,19 @@
 
         function calculateTotal() {
             const inputElement = document.querySelector('.js-cost-input');
-            let cost = Number(inputElement.value); //This is the content inside the textbox
+            let cost = Number(inputElement.value) * 100; //This is the content inside the textbox
             
-            if (cost < 40) {
-                cost = cost + 10;
+            if (cost < 4000) {
+                cost = cost + 1000;
             }
 
            
-            document.querySelector('.js-total-cost').innerHTML = `$${cost}`;
+            document.querySelector('.js-total-cost').innerHTML = `$${cost / 100}`;
 
         }
         
         function subscribe() {
-            const buttonElement = document.querySelector('.JS-subscribe');
+            const buttonElement = document.querySelector('.js-subscribe');
             if (buttonElement.innerText === 'Subscribe') {
                 buttonElement.innerHTML = 'Subscribed!'
             } else {
