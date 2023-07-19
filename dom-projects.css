@@ -1,3 +1,19 @@
 .js-subscribe{
-    
+    color: #fff;
+    background-color: black;   
+    padding: 7px; 
+    border-radius: 15px;
 }
+
+.rps {
+    margin-top: 50px;
+}
+
+.calculate-button{
+    padding: 7px;
+    color: #fff;
+    background-color: green;
+    border: 1px;
+}
+
+
