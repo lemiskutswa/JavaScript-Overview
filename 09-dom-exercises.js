@@ -24,6 +24,11 @@
         document.querySelector('.js-display-text').innerHTML = `Your name is: ${name}`;
     }
 
+    function typingHandler () {
+        const detect = document.querySelector('.typing').value;
+        document.querySelector('output').innerText = detect;  
+
+    }
 
     
 
