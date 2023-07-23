@@ -1,9 +1,11 @@
 .js-subscribe{
     color: #fff;
     background-color: black;   
-    padding: 7px; 
+    padding: 8px; 
     border-radius: 15px;
     border: none;
+    font-weight: bold; 
+    cursor: pointer;
 }
 
 .rps {
@@ -21,4 +23,5 @@
     padding: 5px;
 }
 
+.change-color { background-color: gray };
 

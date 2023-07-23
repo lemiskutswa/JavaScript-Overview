@@ -30,6 +30,11 @@
         document.querySelector('.output').innerHTML = output; 
     }
 
+    function greyButton() {
+        const subscribeAnimation = document.querySelector('js-subscribe');
+        subscribeAnimation.classList.add('change-color');
+    }
+
     
 
 
