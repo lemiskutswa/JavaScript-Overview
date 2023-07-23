@@ -8,6 +8,11 @@
     cursor: pointer;
 }
 
+.is-subscribed{
+    background-color: gray;
+    color: black;
+}
+
 .rps {
     margin-top: 50px;
 }
@@ -23,5 +28,5 @@
     padding: 5px;
 }
 
-.change-color { background-color: gray };
+
 
