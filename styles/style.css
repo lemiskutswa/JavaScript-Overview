@@ -1,0 +1,37 @@
+.add-to-cart-button{
+    background-color: rgb(255, 216, 20);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: none;
+    border-radius: 1em;
+}
+
+.request-now-btn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-top: 0.8em;
+    padding-bottom: 0.7em;
+    padding-top: 0.5em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.gaming-btn{
+    padding-top: 0.8em;
+    padding-bottom: 0.7em;
+    padding-top: 0.5em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.is-toggled{
+    background-color: black;
+    color: white;
+}

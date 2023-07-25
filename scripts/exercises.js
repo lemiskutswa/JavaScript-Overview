@@ -1,18 +1,17 @@
-const product = {
-    name: 'basketball',
-    price: 2099
-};
+const buttonElement = document.querySelector('.js-button');
 
-console.log(product);
+ let result = buttonElement.classList.contains('js-button');
 
-const product2 = {
-    name: 'basketball',
-    price: product.price + 500,
-    'delivery-time': '3 days'
-};
+ console.log(result);
 
-console.log(product2);
+const gamingButton = document.querySelector('.gaming-btn');
 
-function comparePrice(products) {
+function toggleButton() {
+    const checker = gamingButton.classList.contains('is-toggled');
+    if (!checker) {
+        gamingButton.classList.add('is-toggled');
+    } else {
+        gamingButton.classList.remove('is-toggled');
+    }
     
 }
