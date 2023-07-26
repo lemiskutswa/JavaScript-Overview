@@ -35,3 +35,22 @@
     background-color: black;
     color: white;
 }
+
+.container{
+    margin-top: 50px;
+}
+
+.on-off-btns{
+    padding-top: 0.8em;
+    padding-bottom: 0.7em;
+    padding-top: 0.5em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.is-on{
+    background-color: black;
+    color: white;
+}

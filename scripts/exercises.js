@@ -15,3 +15,13 @@ function toggleButton() {
     }
     
 }
+
+const threeButtons = document.querySelector('.on-off-btns');
+function techButtons() {
+    const checkup = threeButtons.classList.contains('is-on');
+    if(!checkup) {
+        threeButtons.classList.add('is-on');
+    } else {
+        threeButtons.classList.remove('is-on');
+    }
+}
