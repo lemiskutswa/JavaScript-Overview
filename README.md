@@ -109,3 +109,9 @@ document.querySelector() - works with strings between the brackets - used to sel
 - In type coercion, say if you have ('25' - 5) = 20. Why, JS will automatically convert '25' into a number for subtraction, multiplication, and division but NOT ADDITION. In addition, the 5 will be treated as a string and concatenated with 25 to from 255. 
 
 - You can put an image inside a button element. 
+
+# Arrays & Loops
+In myArray[1] - Here, [1] is called the index. It represents the position of a value in an array
+- We can put any value inside of an array, including another array - because an array is simply a value. 
+- If we use typeof to check for an array, it will yield an object (because an array is a special type of object) 
+- To check for an array, type Array.isArray(myArray)

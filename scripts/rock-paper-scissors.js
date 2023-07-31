@@ -21,6 +21,7 @@ result = 'You won!'
 } else if (computerMove = 'Scissors') {
 result = 'Tied';
 }
+
 } else if (playerMove ==='Paper') {
 if (computerMove === 'Rock') {
 result = 'You won!';
@@ -29,6 +30,7 @@ result = 'Tied'
 } else if (computerMove = 'Scissors') {
 result = 'You lost';
 }
+
 } else if (playerMove === 'Rock') {
 if (computerMove === 'Rock') {
 result = 'Tied';
