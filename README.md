@@ -115,3 +115,6 @@ In myArray[1] - Here, [1] is called the index. It represents the position of a v
 - We can put any value inside of an array, including another array - because an array is simply a value. 
 - If we use typeof to check for an array, it will yield an object (because an array is a special type of object) 
 - To check for an array, type Array.isArray(myArray)
+- 
+
+array.splice() takes 2 values, the index of the value you want to remove and the number of values you want to remove from that index. 
