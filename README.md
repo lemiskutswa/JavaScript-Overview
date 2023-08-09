@@ -118,3 +118,4 @@ In myArray[1] - Here, [1] is called the index. It represents the position of a v
 - 
 
 array.splice() takes 2 values, the index of the value you want to remove and the number of values you want to remove from that index. 
+- Iteration refers to each time a loop runs. 
