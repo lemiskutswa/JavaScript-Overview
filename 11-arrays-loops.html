@@ -8,19 +8,47 @@
 <body>
     <script>
 
-        const todoList = [
+        /* const todoList = [
             'eat',
             'sleep',
             'conquer',
             'repeat'
-        ];
+        ];*
 
         for (let i = 0; i < todoList.length; i++) {
             
             const value = todoList[i];//Takes the variable from the defined index
             
             console.log(value);
+        } */
+
+        /*
+        Algorithm: 
+        - Create a varaible for the total that stores zero
+        - Write the loop code
+        - Get the values of the array from each index using nums[i] and store it in a variable
+        - For each iteration, the total variable adds the number starting from index zero all the way to array.lenght
+        */
+        const nums = [0, 1, 2, 3, 4];
+
+        let total = 0; 
+
+        for (let i = 0; i < nums.length; i++) {
+            const num = nums[i];
+            total += num;
         }
+
+        console.log(total);
+
+        const numsDoubled = [];// A new array that is filled all th values of nums doubled
+
+        for (let i = 0; i < nums.length; i++) {
+            const num = nums[i];
+            numsDoubled.push(num * 2);//pushes each value of nums (at each index) to the numsDoubled array. 
+        }
+
+        console.log(numsDoubled);
+
         
         /* const myArray = [0, 10, 20, 30, 40]
         console.log(myArray[1]); //Here, [1] is called the index. It represents the position of a value in an array
