@@ -86,6 +86,12 @@ const numbers = [1, 2, 3];
 const numbersAdded = [];
 
 for (let i = 0; i < numbers.length; i++) {
-    const values = numbers[i];
-    
+    let values = numbers[i];
+
+    numbersAdded.push(values +=1);
+    console.log(numbersAdded);
+}
+
+function addOne() {
+    return 
 }
