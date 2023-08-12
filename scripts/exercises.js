@@ -80,3 +80,12 @@ for (let i = 0; i < nums.length; i++) {
     numsDoubled.push(num * 2);
     console.log(numsDoubled);
 }
+
+const numbers = [1, 2, 3];
+
+const numbersAdded = [];
+
+for (let i = 0; i < numbers.length; i++) {
+    const values = numbers[i];
+    
+}
