@@ -54,17 +54,29 @@
 
 // console.log(swapArrays()); 
 
-for (let i = 0; i <=10; i+=2) {
-     console.log(i);   
-} 
+// for (let i = 0; i <=10; i+=2) {
+//      console.log(i);   
+// } 
 
-for (let i = 5; i >= 0; i --) {
-    console.log(i);
+// for (let i = 5; i >= 0; i --) {
+//     console.log(i);
+// }
+
+// let i = 0;
+
+// while(i<=10) {
+//     console.log(i);
+//     i+=2;
+// }  
+
+const nums = [1, 2, 3, 4];
+
+const numsDoubled = [];
+
+for (let i = 0; i < nums.length; i++) {
+    const num = nums[i]
+    console.log(num);
+
+    numsDoubled.push(num * 2);
+    console.log(numsDoubled);
 }
-
-let i = 0;
-
-while(i<=10) {
-    console.log(i);
-    i+=2;
-}  
