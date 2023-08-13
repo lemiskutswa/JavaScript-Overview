@@ -111,14 +111,17 @@ function addArrays(array1, array2) {
 
 console.log(addArrays([1, 2, 3], [2, 3, 4])); 
 
-function countPositiveNums(nums) {
-    const arrayNums = []; 
-    const numbers = arrayNums[i];
-    for (let i = 0; i < arrayNums.length; i++) {
-       if (numbers > 0) {
-        return arrayNums;
-       }
-    }
-} 
+function countPositive(nums) {
+    let result = 0;
 
-console.log(countPositiveNums([-1, -2, 0, 1, 2, 3])); 
+    for (let i = 0; i < nums.length; i++) {
+      if (nums[i] > 0) {
+        result++;
+      }
+    }
+
+    return result;
+  }
+
+  console.log(countPositive([1, -3, 5]));
+  console.log(countPositive([-2, 3, -5, 7, 10])); 
