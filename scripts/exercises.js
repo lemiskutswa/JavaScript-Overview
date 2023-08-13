@@ -2,18 +2,17 @@
 
 //  let result = buttonElement.classList.contains('js-button');
 
+ const gamingButton = document.querySelector('.gaming-btn');
 
-// const gamingButton = document.querySelector('.gaming-btn');
-
-// function toggleButton() {
-//     const checker = gamingButton.classList.contains('is-toggled');
-//     if (!checker) {
-//         gamingButton.classList.add('is-toggled');
-//     } else {
-//         gamingButton.classList.remove('is-toggled');
-//     }
+ function toggleButton() {
+     const checker = gamingButton.classList.contains('is-toggled');
+    if (!checker) {
+         gamingButton.classList.add('is-toggled');
+     } else {
+        gamingButton.classList.remove('is-toggled');
+     }
     
-// }
+}
 
 // const threeButtons = document.querySelector('.on-off-btns');
 // function techButtons() {
@@ -69,29 +68,49 @@
 //     i+=2;
 // }  
 
-const nums = [1, 2, 3, 4];
+// const nums = [1, 2, 3, 4];
 
-const numsDoubled = [];
+// const numsDoubled = [];
 
-for (let i = 0; i < nums.length; i++) {
-    const num = nums[i]
-    console.log(num);
+// for (let i = 0; i < nums.length; i++) {
+//     const num = nums[i]
+//     console.log(num);
 
-    numsDoubled.push(num * 2);
-    console.log(numsDoubled);
+//     numsDoubled.push(num * 2);
+//     console.log(numsDoubled);
+// }
+
+// const numbers = [1, 2, 3];
+
+// const numbersAdded = [];
+
+// for (let i = 0; i < numbers.length; i++) {
+//     let values = numbers[i];
+
+//     numbersAdded.push(values +=1);
+//     console.log(numbersAdded);
+// }
+const arrayTwo = [];
+function addNum(array, num) {
+    for (let i = 0; i < array.length; i++) {
+        arrayTwo.push(array[i] + num);
+    }
+
+    return arrayTwo;
+}
+console.log(addNum([1, 2, 3, 4], 3));
+
+function addArrays(array1, array2) {
+    const sum = [];
+    for (let i = 0; i < array1.length; i++) {
+        sum.push((array1[i] + array2[i])); 
+    }
+
+    return sum; 
 }
 
-const numbers = [1, 2, 3];
+console.log(addArrays([1, 2, 3], [2, 3, 4])); 
 
-const numbersAdded = [];
-
-for (let i = 0; i < numbers.length; i++) {
-    let values = numbers[i];
-
-    numbersAdded.push(values +=1);
-    console.log(numbersAdded);
-}
-
-function addOne() {
-    return 
-}
+function countPositiveNums(nums) {
+    
+} 
