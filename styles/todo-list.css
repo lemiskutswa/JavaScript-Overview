@@ -5,3 +5,12 @@ body{
 .js-name-input{
     padding: 0.7em;
 }
+
+.js-due-date-input{
+    padding: 0.62em;
+}
+
+.todo-grid{
+    display: grid;
+    grid-template-columns: 180px 180px 100px; 
+}
