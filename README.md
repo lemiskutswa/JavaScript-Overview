@@ -120,3 +120,6 @@ In myArray[1] - Here, [1] is called the index. It represents the position of a v
 array.splice() takes 2 values, the index of the value you want to remove and the number of values you want to remove from that index. 
 - Iteration refers to each time a loop runs. 
 - For and while loops work similarly. Use for loops if you're sure of the number of iterations you want the code to run, use while if you're unsure (non-standard loop). 
+
+- If you need to work with related variables together, use objects. 
+- If the property and variable name are the same, you can type it out once. 
