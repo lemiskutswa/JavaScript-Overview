@@ -29,6 +29,8 @@
         - Get the values of the array from each index using nums[i] and store it in a variable
         - For each iteration, the total variable adds the number starting from index zero all the way to array.lenght
         */
+
+        /*
         const nums = [0, 1, 2, 3, 4];
 
         let total = 0; 
@@ -75,6 +77,17 @@
         // for (let i=1; i<5; i++) {
         //     console.log(i);
         // }
+
+        const array1 = [2, 4, 6, 8]; //array1 contains a reference on where this array is stored in memory. 
+        const array2 = array1; //copies the reference that points to where the array is stored in memory. 
+
+        console.log (array2)
+
+        array3 = array2; //copies the same reference on array1 as well 
+        array3.push(99);
+
+        console.log(array1); 
+
        
     </script>
 </body>
