@@ -83,10 +83,14 @@
 
         console.log (array2)
 
-        array3 = array2; //copies the same reference on array1 as well 
+        array3 = array2.slice(); //makes a new copy  
         array3.push(99);
 
         console.log(array1); 
+
+        const [firstValue, secondValue, thirdValue] = [1, 2, 3];//Destructuring an array
+
+        console.log(thirdValue);
 
     
 
