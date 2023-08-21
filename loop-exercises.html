@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        /*
+        - Loop through the array
+        - Look for search
+        - if found: console.log 
+        */
+        //const verbs = ['keep', 'search', 'box', 'closed']; 
+
+        const searchArray = ['hello', 'world', 'search', 'good'];
+        
+
+
+        // for (let i = 0; i < searchArray.length; i++) {
+        //     //const identifySearch = searchArray[i];
+
+        //     if (searchArray[i] === 'search') {
+        //         console.log(searchArray[i]);
+        //     } else {
+        //         console.log(-1);
+        //     }; 
+        // }
+
+        let words = ['hello', 'world', 'search', 'good'];
+
+        // Set the index to -1 at the start (so we'll assume
+        // the string 'search' doesn't exist in the array).
+        // If we find the string 'search' in the array, we
+        // will update the index.
+        let index = -1;
+
+        for (let i = 0; i < words.length; i++) {
+        if (words[i] === 'search') {
+            index = i;
+        }
+        }
+
+        console.log(index);
+
+        words = ['not', 'found'];
+        index = -1;
+
+        for (let i = 0; i < words.length; i++) {
+        if (words[i] === 'search') {
+            index = i;
+        }
+        }
+
+        //console.log(index);
+
+
+
+    </script>
+</body>
+</html>
