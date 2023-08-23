@@ -21,6 +21,30 @@
         }
 
         function2(); 
+
+        const object1 = {
+            name: 'Lemis',
+            fun: function () {
+                console.log('Object1');// A function saved inside an object is called a method
+            }
+        }
+
+        object1.fun(); 
+
+        //You can pass a function as a value inside another function. 
+        function display(param) {
+            console.log(param);
+        }
+
+        display(2);
+
+        function run(param) {
+            param(); 
+        }
+
+        run(function greet() {
+            console.log('hello fresh!');
+        });
     </script>
 
 </body>
