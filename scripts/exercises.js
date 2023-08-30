@@ -90,39 +90,40 @@
 //     numbersAdded.push(values +=1);
 //     console.log(numbersAdded);
 // }
-const arrayTwo = [];
-function addNum(array, num) {
-    for (let i = 0; i < array.length; i++) {
-        arrayTwo.push(array[i] + num);
-    }
+// const arrayTwo = [];
+// function addNum(array, num) {
+//     for (let i = 0; i < array.length; i++) {
+//         arrayTwo.push(array[i] + num);
+//     }
 
-    return arrayTwo;
-}
-console.log(addNum([1, 2, 3, 4], 3));
+//     return arrayTwo;
+// }
+// console.log(addNum([1, 2, 3, 4], 3));
 
-function addArrays(array1, array2) {
-    const sum = [];
-    for (let i = 0; i < array1.length; i++) {
-        sum.push((array1[i] + array2[i])); 
-    }
+// function addArrays(array1, array2) {
+//     const sum = [];
+//     for (let i = 0; i < array1.length; i++) {
+//         sum.push((array1[i] + array2[i])); 
+//     }
 
-    return sum; 
-}
+//     return sum; 
+// }
 
-console.log(addArrays([1, 2, 3], [2, 3, 4])); 
+// console.log(addArrays([1, 2, 3], [2, 3, 4])); 
 
-function countPositive(nums) {
-    let result = 0;
+// function countPositive(nums) {
+//     let result = 0;
 
-    for (let i = 0; i < nums.length; i++) {
-      if (nums[i] > 0) {
-        result++;
-      }
-    }
+//     for (let i = 0; i < nums.length; i++) {
+//       if (nums[i] > 0) {
+//         result++;
+//       }
+//     }
 
-    return result;
-  }
+//     return result;
+//   }
 
-  console.log(countPositive([1, -3, 5]));
-  console.log(countPositive([-2, 3, -5, 7, 10])); 
+//   console.log(countPositive([1, -3, 5]));
+//   console.log(countPositive([-2, 3, -5, 7, 10])); 
+
 

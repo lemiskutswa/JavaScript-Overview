@@ -66,8 +66,13 @@
             'watch youtube',
             'eat'
         ].forEach(function(value, index) { //preferred way to loop through an array
+            
+            if (value === 'make dinner') {
+                return;
+            }
+            
             console.log(index); 
-            console.log(value,); 
+            console.log(value,);
 
         })
 
