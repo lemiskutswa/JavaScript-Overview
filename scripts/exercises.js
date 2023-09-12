@@ -148,10 +148,19 @@
 // }
 
 function addToCart() {
-    const cartButton = document.querySelector('.js-added-display').innerHTML = 'Added!';
-    setTimeout(function () {
-        cartButton.innerHTML = ''; 
+    let myTimeout; 
+    
+    const cartButton = document.querySelector('.js-added-display');
+    cartButton.innerHTML = 'Added!';
+
+    // Clear the first timeout first before the cartButton message is rendered. 
+    clearTimeout(myTimeout);
+
+    myTimeout = setTimeout(function () {
+        cartButton.innerHTML = '' 
     }, 2000)
+
+   
 }
 
 
