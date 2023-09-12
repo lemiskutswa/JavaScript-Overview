@@ -127,3 +127,31 @@
 //   console.log(countPositive([-2, 3, -5, 7, 10])); 
 
 
+// function runTwice (add) {
+//     add(); 
+//     add(); 
+// }; 
+
+// const add = function() {
+//     console.log(2+3);
+// };
+
+// runTwice(add);
+
+// function changeButton () {
+//     setTimeout(function () {
+//         const buttonElement = document.querySelector('.start-btn').innerHTML = 'Finished';
+//     }, 2000);
+
+//     const buttonElement = document.querySelector('.start-btn');
+//     buttonElement.innerText = 'Loading...';
+// }
+
+function addToCart() {
+    const cartButton = document.querySelector('.js-added-display').innerHTML = 'Added!';
+    setTimeout(function () {
+        cartButton.innerHTML = ''; 
+    }, 2000)
+}
+
+
