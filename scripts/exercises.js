@@ -163,4 +163,24 @@ function addToCart() {
    
 }
 
+let messages = 2;
 
+setInterval(function() {
+    if(document.title === 'App') {
+        document.title = `(${messages}) New Messages`;
+    } else {
+        document.title = 'App';
+    }
+}, 1000)
+
+function addMessage() {
+    messages++;
+}
+
+function removeMessage() {
+    messages--;
+}
+
+
+
+//clearInterval(intervalId);
