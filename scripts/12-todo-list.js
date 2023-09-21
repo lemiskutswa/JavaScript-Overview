@@ -15,7 +15,7 @@ function renderTodoList() {
 
     let todoListHTML = '';
 
-    todoList.forEach(function(todoObject, index) {
+    todoList.forEach((todoObject, index) => {
         //const todoObject = todoList[i]; - No longer needed because the todoObject has already been declared as the parameter above
     
         const { name, dueDate } = todoObject;

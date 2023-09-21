@@ -6,6 +6,8 @@
     <title>Advanced Functions</title>
 </head>
 <body>
+
+    <button></button>
     
     <script>
         /*
@@ -59,23 +61,46 @@
             //console.log('Interval');
         }, 2000);
 
-        */
+    
 
-        [
+         [
             'make dinner',
-            'watch youtube',
-            'eat'
-        ].forEach(function(value, index) { //preferred way to loop through an array
+             'watch youtube',
+             'eat'
+         ].forEach((value, index) => { //preferred way to loop through an array
             
-            if (value === 'make dinner') {
-                return;
-            }
+             if (value === 'make dinner') {
+                 return;
+             }
             
-            console.log(index); 
-            console.log(value,);
+             console.log(index); 
+             console.log(value,);
 
-        })
+         })
 
+        const arrowFunction = () => {
+            console.log('hello world');
+            return 5; 
+        }
+
+        arrowFunction();
+
+        const oneParam = (param) => {
+            console.log(param + 1);
+        }
+
+        oneParam(2); 
+
+        const oneLine = () => 5 + 6;
+
+        console.log(oneLine());
+
+        const object7 = {
+            method: () => {},
+
+            method() {} //Preeferred way of writing this
+        }
+        */
     </script>
 
 </body>

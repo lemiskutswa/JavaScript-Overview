@@ -165,13 +165,19 @@ function addToCart() {
 
 let messages = 2;
 
+if (messages === 0) {
+    document.title = 'App';
+} 
+    
 setInterval(function() {
-    if(document.title === 'App') {
-        document.title = `(${messages}) New Messages`;
-    } else {
-        document.title = 'App';
-    }
-}, 1000)
+        if(document.title === 'App') {
+            document.title = `(${messages}) New Messages`;
+        } else {
+            document.title = 'App';
+        }
+    }, 1000)
+
+
 
 function addMessage() {
     messages++;
