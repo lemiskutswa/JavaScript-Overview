@@ -46,6 +46,17 @@ function autoPlay() {
 
     //To play the game with 'R', 'p', 's' buttons
 
+    document.body.addEventListener('keydown', (event) => {
+        if (event.key === 'r') {
+            playGame('Rock');
+        } else if (event.key === 'p') {
+            playGame('Paper');
+        } else if (event.key === 's') {
+            playGame('Scissors');
+        }
+        ;
+    });
+
 
  function playGame (playerMove) {
     let computerMove = pickComputerMove();
