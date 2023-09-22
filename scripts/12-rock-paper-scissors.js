@@ -10,7 +10,7 @@ updateScoreElement();
 let isAutoPlaying = false;
 let intervalId;
 
-
+//Code for the autoplay button
 
 function autoPlay() {
         if (!isAutoPlaying) {
@@ -26,7 +26,25 @@ function autoPlay() {
 
     }
 
+    //Playing the game using JS events
 
+   
+    document.querySelector('.js-rock-button')
+    .addEventListener('click', () => {
+        playGame('Rock');
+    })
+
+    document.querySelector('.js-paper-button')
+    .addEventListener('click', () => {
+        playGame('Paper');
+    })
+
+    document.querySelector('.js-scissors-button')
+    .addEventListener('click', () => {
+        playGame('Scissors');
+    })
+
+    //To play the game with 'R', 'p', 's' buttons
 
 
  function playGame (playerMove) {
