@@ -22,21 +22,31 @@ function renderTodoList() {
         const html = `
         <div>${name}</div> 
         <div>${dueDate} </div>
-        <button onclick = "
-        todoList.splice(${index}, 1);
-        renderTodoList();
-        "
-        class = "delete-todo-button"
+        <button 
+        class = "delete-todo-button js-delete-todo-button" 
         >Delete</button>
         </div>`;
+        //At this point, this is just a string, so if we want to add an event listener, we need to do it after
 
         todoListHTML += html; 
+
     });
 
     document.querySelector('.js-todo-list').innerHTML = todoListHTML;
+
+    document.querySelectorAll('.js-delete-todo-button')
+        .forEach((deleteButton, index)=> {
+            deleteButton.addEventListener('click', ()=> {
+                todoList.splice(index, 1);
+                renderTodoList();
+            })
+        });
 }
 
-
+document.querySelector('.js-add-todo')
+.addEventListener('click', () => {
+    addTodo();
+});
 
 function addTodo () {
     const inputElement = document.querySelector('.js-name-input');
