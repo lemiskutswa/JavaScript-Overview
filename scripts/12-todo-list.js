@@ -34,7 +34,7 @@ function renderTodoList() {
 
     document.querySelector('.js-todo-list').innerHTML = todoListHTML;
 
-    document.querySelectorAll('.js-delete-todo-button')
+    document.querySelectorAll('.js-delete-todo-button')//querySelectorAll treats all of these elements as an array. So index represents the indices of each delete button.   
         .forEach((deleteButton, index)=> {
             deleteButton.addEventListener('click', ()=> {
                 todoList.splice(index, 1);

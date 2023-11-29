@@ -10,7 +10,7 @@
     <button onclick="" class="js-button">Click</button>
     
     <script>
-        /*
+        
         const buttonElement = document.querySelector('.js-button');
 
         const eventListener = () => {
@@ -116,7 +116,7 @@
             method() {} //Preeferred way of writing this
         }
         */
-
+        /*
         const theObject = {
             method: () => {
                 console.log('arrow');
@@ -128,13 +128,20 @@
             person:'Lemis'
         }
 
-        const method = theObject.method;
+        const { method, secondMethod } = theObject;
 
         method();
 
+        secondMethod();
+        */
         
-        
-        
+        const filterArray = [1, -6, 3, -5];
+
+        const positiveNums = filterArray.filter((numbers) => {
+            return numbers >=0;
+        })
+
+        console.log(positiveNums); 
     </script>
 
 </body>
